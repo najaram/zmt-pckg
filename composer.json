@@ -1,0 +1,44 @@
+{
+    "name": "najaram/zmto",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Arambulo",
+            "email": "arambulo.jan@gmail.com",
+            "homepage": "https://janarambulo.com"
+        }
+    ],
+    "homepage": "https://github.com/najaram/zmto",
+    "keywords": ["Laravel", "Zmto"],
+    "require": {
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Najaram\\Zmto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Najaram\\Zmto\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Najaram\\Zmto\\ZmtoServiceProvider"
+            ],
+            "aliases": {
+                "Zmto": "Najaram\\Zmto\\Facades\\Zmto"
+            }
+        }
+    }
+}
