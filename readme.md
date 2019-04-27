@@ -1,4 +1,4 @@
-# Zmto
+# Zmto Pckg
 
 [![Build Status][ico-travis]][link-travis]
 
@@ -32,24 +32,11 @@ class ExampleController extends Controller
 
 ```
 
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
 ## Testing
 
 ``` bash
-$ composer test
+$ phpunit
 ```
-
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
-
-## Security
-
-If you discover any security related issues, please email arambulo.jan@gmail.com instead of using the issue tracker.
-
 
 ## License
 
